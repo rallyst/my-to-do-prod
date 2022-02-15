@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <title>My ToDo List</title>
+<script defer="defer" src="./js/main.js"></script><link href="./css/main.css" rel="stylesheet"></head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="heading">
+        <h1 class="header__title title">ToDo List</h1>
+        <input type="text" name="filter" class="filter" placeholder="Find task">
+      </div>
+      <form class="header__form">
+        <input type="text" class="header__form-input" placeholder="What do you have planned?">
+        <input type="submit" class="header__form-submit" value="add task">
+      </form>
+      <div class="message__container">
+        <span class="warning"></span>
+      </div>
+      
+    </header>
+    <section class="task-list">
+      <h2 class="task-list__title title">Tasks</h2>
+      <div class="tasks">
+        
+      </div>
+    </section>
+  </div>
+</body>
+</html>
