@@ -1,161 +1,155 @@
 /*!************************************************************************************************************!*\
   !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./scss/index.scss ***!
   \************************************************************************************************************/
-* {
-  box-sizing: border-box;
-  margin: 0;
-  font-family: "Fira sans", sans-serif;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-color: #374151;
-  color: #eee;
-}
-
-input, button {
-  appearance: none;
-  border: none;
-  outline: none;
-  background: none;
-}
-
-input:hover,
-input:focus {
-  outline: 1px solid lime;
-  opacity: 0.8;
-}
-
-.container {
-  max-width: 800px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 30px 15px;
-}
-
-.title {
-  color: #6b7280;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 300;
-}
-
-.header {
-  padding-bottom: 20px;
-  width: 100%;
-}
-.header__title {
-  margin-bottom: 15px;
-}
-.header__form {
-  display: flex;
-  margin-bottom: 9px;
-}
-.header__form-input {
-  flex: 1 1 0%;
-  background-color: #1f2937;
-  padding: 15px;
-  border-radius: 16px;
-  margin-right: 15px;
-  color: #eee;
-  font-size: 20px;
-}
-.header__form-submit {
-  background-image: linear-gradient(to right, #00ff00, green);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  position: relative;
-  font-size: 20px;
-  font-weight: 700;
-  cursor: pointer;
-  transition: 0.4s;
-  border: 2px solid #00ff00;
-  border-radius: 5px;
-}
-.header__form-submit:hover, .header__form-submit:focus {
-  background-image: linear-gradient(to left, #00ff00, green);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  box-shadow: 0px 0px 7px #00ff00;
-}
-.header__form-submit:active {
-  box-shadow: 0px 0px 13px #00ff00;
-  top: 1px;
-  left: 1px;
-}
-
-.heading {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px;
-}
-
-.message__container {
-  height: 50px;
-  text-align: center;
-}
-
-.message {
-  letter-spacing: 2px;
-  font-size: 14px;
-  font-weight: 700;
-}
-
-.warning {
-  color: #dc143c;
-}
-
-.success {
-  color: #00ff00;
-}
-
-.task-list__title {
-  margin-bottom: 15px;
-}
-
-.filter {
-  flex: 1 1 0%;
-  background-color: #1f2937;
-  padding: 15px;
-  border-radius: 16px;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  color: #eee;
-  font-size: 20px;
-  max-width: 300px;
-}
-
-.task {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #111827;
-  padding: 10px;
-  border-radius: 16px;
-  margin-bottom: 25px;
-  padding-left: 20px;
-  font-size: 20px;
-}
-.task__delete-btn {
-  height: 40px;
-  width: 40px;
-  font-size: 20px;
-  background-color: #ff0000;
-  color: #fff;
-  padding: 10px;
-  border-radius: 50%;
-  cursor: pointer;
-  opacity: 0.8;
-}
-.task__delete-btn:hover, .task__delete-btn:focus {
-  opacity: 1;
-  box-shadow: 0px 0px 10px #ff0000;
-}
-.task__delete-btn:active {
-  opacity: 1;
-  box-shadow: 0px 0px 20px #ff0000;
-}
-
-/*# sourceMappingURL=main.css.map*/
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Fira sans", sans-serif;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #374151;
+    color: #eee;
+  }
+  
+  input, button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+  }
+  
+  input:hover,
+  input:focus {
+    outline: 1px solid lime;
+    opacity: 0.8;
+  }
+  
+  .container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 15px;
+  }
+  
+  .title {
+    color: #6b7280;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 15px;
+  }
+  
+  .message__container {
+    height: 50px;
+    text-align: center;
+  }
+  
+  .message {
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  .warning {
+    color: #dc143c;
+  }
+  
+  .success {
+    color: #00ff00;
+  }
+  
+  .header {
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .header__form {
+    display: flex;
+    margin-bottom: 9px;
+  }
+  .header__form-input {
+    flex: 1 1 0%;
+    background-color: #1f2937;
+    padding: 15px;
+    border-radius: 16px;
+    margin-right: 15px;
+    color: #eee;
+    font-size: 20px;
+  }
+  .header__form-submit {
+    background-image: linear-gradient(to right, #00ff00, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.4s;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+  }
+  .header__form-submit:hover, .header__form-submit:focus {
+    background-image: linear-gradient(to left, #00ff00, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: 0px 0px 7px #00ff00;
+  }
+  .header__form-submit:active {
+    box-shadow: 0px 0px 13px #00ff00;
+    top: 1px;
+    left: 1px;
+  }
+  
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111827;
+    padding: 10px;
+    border-radius: 16px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  .task__delete-btn {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  .task__delete-btn:hover, .task__delete-btn:focus {
+    opacity: 1;
+    box-shadow: 0px 0px 10px #ff0000;
+  }
+  .task__delete-btn:active {
+    opacity: 1;
+    box-shadow: 0px 0px 20px #ff0000;
+  }
+  
+  .filter {
+    flex: 1 1 0%;
+    background-color: #1f2937;
+    padding: 15px;
+    border-radius: 16px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    color: #eee;
+    font-size: 20px;
+    max-width: 300px;
+  }
+  
+  /*# sourceMappingURL=main.css.map*/
